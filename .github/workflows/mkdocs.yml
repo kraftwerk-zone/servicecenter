@@ -35,13 +35,14 @@ jobs:
       - name: Build MkDocs (EN)
         run: mkdocs build --clean --config-file mkdocs-en.yml --site-dir site-en
 
-     - name: Prepare final site folder
-       run: |
-         rm -rf site
-         mkdir site
-         cp -r site-de/* site/
-         mkdir -p site/en
-         cp -r site-en/* site/en/
+      # --- Merge both into final site/ ---
+      - name: Prepare final site folder
+        run: |
+          rm -rf site
+          mkdir site
+          cp -r site-de/* site/
+          mkdir -p site/en
+          cp -r site-en/* site/en/
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
