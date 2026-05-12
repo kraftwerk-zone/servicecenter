@@ -35,13 +35,13 @@ jobs:
       - name: Build MkDocs (EN)
         run: mkdocs build --clean --config-file mkdocs-en.yml --site-dir site-en
 
-      # --- Merge both into final site/ ---
-      - name: Merge DE + EN into final site folder
-        run: |
-          mkdir site
-          cp -r site-de/* site/
-          mkdir -p site/en
-          cp -r site-en/* site/en/
+     - name: Prepare final site folder
+       run: |
+         rm -rf site
+         mkdir site
+         cp -r site-de/* site/
+         mkdir -p site/en
+         cp -r site-en/* site/en/
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
