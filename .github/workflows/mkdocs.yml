@@ -1,0 +1,39 @@
+name: Build MkDocs
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install MkDocs + Plugins
+        run: |
+          pip install mkdocs-material
+          pip install mkdocs-macros-plugin
+          pip install mkdocs-git-revision-date-localized-plugin
+          pip install mkdocs-awesome-pages-plugin
+          pip install mkdocs-minify-plugin
+
+      - name: Build MkDocs
+        run: mkdocs build --clean --config-file mkdocs-de.yml
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          publish_branch: gh-pages
+          force_orphan: true
