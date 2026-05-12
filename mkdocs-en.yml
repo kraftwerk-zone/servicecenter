@@ -1,12 +1,12 @@
-site_name: KraftwerK Dokumentation
-site_url: https://kraftwerk.shop/docs/de/
-site_description: Technische Dokumentation für Produkte, Module und Systeme
+site_name: KraftwerK Documentation
+site_url: https://kraftwerk.shop/docs/en/
+site_description: Technical support for products, moduls and systems
 
-docs_dir: docs/de
+docs_dir: docs/en
 
 theme:
   name: material
-  language: de
+  language: en
   palette:
     scheme: default
     primary: orange
