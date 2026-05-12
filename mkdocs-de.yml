@@ -1,4 +1,4 @@
-site_name: KraftwerK Dokumentation
+site_name: KraftwerK Servicecenter
 site_url: https://kraftwerk.shop/docs/de/
 site_description: Technische Dokumentation für Produkte, Module und Systeme
 
@@ -9,8 +9,8 @@ theme:
   language: de
   palette:
     scheme: default
-    primary: orange
-    accent: orange
+    primary: "#f29100"
+    accent: "#ff9a01"
   features:
     - navigation.tabs          # Baut deine Hauptordner als Tabs oben auf
     - navigation.footer         # Baut die Sidebar NUR für den aktuell aktiven Tab auf (Dein Silo-Effekt!)
