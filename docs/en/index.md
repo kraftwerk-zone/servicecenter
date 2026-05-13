@@ -1,1 +1,5 @@
-Hello world (en)
+---
+title: Home
+---
+
+Hello world

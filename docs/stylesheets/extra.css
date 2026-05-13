@@ -1,0 +1,38 @@
+/* Kraftwerk Orange (#f29100): Header/Tabs nutzen --md-primary-fg-color; bei Custom-Hex bleibt sonst oft Indigoblau von :root */
+body[data-md-color-primary="#f29100"] {
+  --md-primary-fg-color: #f29100;
+  --md-primary-fg-color--light: #ffa733;
+  --md-primary-fg-color--dark: #d97d00;
+  --md-primary-bg-color: #fff;
+  --md-primary-bg-color--light: #ffffffb3;
+}
+
+/* Akzent konsistent (Material liest data-md-color-accent) */
+body[data-md-color-accent="#ff9a01"] {
+  --md-accent-fg-color: #ff9a01;
+  --md-accent-fg-color--transparent: #ff9a0126;
+  --md-accent-bg-color: #fff;
+  --md-accent-bg-color--light: #ffffffb3;
+}
+
+/* Kraftwerk Orange (#f29100): weniger kühle UI als Material-Default (Hue 225° = Blaugrau) */
+[data-md-color-scheme="default"] {
+  --md-hue: 35deg;
+  --md-typeset-a-color: #c76a00;
+  --md-typeset-mark-color: rgba(242, 145, 0, 0.28);
+
+  --md-code-hl-color: #f29100;
+  --md-code-hl-color--light: rgba(242, 145, 0, 0.14);
+  --md-code-hl-keyword-color: #d9780a;
+  --md-code-hl-operator-color: #a65f0c;
+  --md-code-hl-constant-color: #c26314;
+  --md-code-hl-function-color: #b35f00;
+  --md-code-hl-special-color: #c45c00;
+}
+
+/* Tab-Reiter (pymdownx.tabbed): aktive Kante in Markenorange */
+.tabbed-set > label:hover,
+.tabbed-set > input:checked + label {
+  color: #f29100;
+  border-color: #f29100;
+}

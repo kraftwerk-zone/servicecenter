@@ -1,0 +1,101 @@
+site_name: KraftwerK Servicecenter
+site_url: https://kraftwerk.shop/docs
+site_description: Technische Dokumentation für Produkte, Module und Systeme
+
+# Tab-Reihenfolge: mkdocs-static-i18n sortiert Top-Level alphabetisch; der Hook setzt die gewünschte Reihenfolge.
+hooks:
+  - hooks/reorder_i18n_top_nav.py
+
+docs_dir: docs
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: "#f29100"
+    accent: "#ff9a01"
+  features:
+    - navigation.tabs          # Baut deine Hauptordner als Tabs oben auf
+    - navigation.footer         # Baut die Sidebar NUR für den aktuell aktiven Tab auf (Dein Silo-Effekt!)
+#    - navigation.sections      # Macht Untermenüs in der Sidebar aufklappbar
+#    - navigation.expand        # Klappt die Menüs in der Sidebar standardmäßig aus
+#    - navigation.prune         # Baut die Sidebar NUR für den aktuell aktiven Tab auf (Dein Silo-Effekt!)
+#    - toc.integrate            # Integriert das Inhaltsverzeichnis der Seite in die linke Navigation
+    - content.code.copy
+    - content.action.edit
+    
+     
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.tabbed
+
+
+#plugins:
+#  - search
+#  - awesome-pages
+#  - macros
+#  - minify:
+#      minify_html: true
+#  - i18n:
+#      reconfigure_material: true    # aktiviert Material-Theme Language Switcher
+#      docs_structure: folder        # oder: folder
+#      fallback_to_default: true     # fehlende Übersetzungen → Default-Sprache
+#      reconfigure_search: true      # getrennte Suchindizes pro Sprache
+#      default_language: de   # ← Pflicht in 0.58
+#      languages:
+#        de:
+#          name: Deutsch
+#          locale: de
+#          default: true
+#          build: true
+#          nav:
+#            - Handbücher:
+#                - K101D: 02-Handbücher/K101D Handbuch EasyBus Lichtanlagen/
+#            - FAQ:
+#                - FAQ: 01-Häufig gestellte Fragen/
+ #           - ControlPanel:
+#                - ControlPanel: 03-ControlPanel/
+#        en:
+#          name: English
+#          locale: en
+#          build: true#
+
+plugins:
+  - search
+  - awesome-pages
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: false
+      languages:
+        - locale: de
+          name: Deutsch
+          build: true
+          default: true
+          theme:
+            language: de
+          site_description: Technische Dokumentation für Produkte, Module und Systeme
+        - locale: en
+          name: English
+          build: true
+          theme:
+            language: en
+          site_description: Technical documentation for products, modules and systems
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kraftwerk-zone

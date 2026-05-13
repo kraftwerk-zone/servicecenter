@@ -1,147 +1,371 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/controlpanel_downloads/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/01-H%C3%A4ufig%20gestellte%20Fragen/01-RS1/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/01-H%C3%A4ufig%20gestellte%20Fragen/01-RS1/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/faq/controlpanel/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/01-H%C3%A4ufig%20gestellte%20Fragen/02-ControlPanel/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/01-H%C3%A4ufig%20gestellte%20Fragen/02-ControlPanel/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/faq/faq/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/01-handbuch-rs1-regler-soundkombination/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/01-handbuch-rs1-regler-soundkombination/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/02-inhaltsverzeichnis/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/02-inhaltsverzeichnis/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/01-handbuch-easybus-lichtanlagen/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/03-sehr-geehrter-kunde/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/03-sehr-geehrter-kunde/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/02-inhaltsverzeichnis/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/04-sicherheitshinweise/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/04-sicherheitshinweise/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/03-sicherheitshinweise/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/05-das-wichtigste-auf-einen-blick/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/05-das-wichtigste-auf-einen-blick/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/03-willkommen/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/06-kanaele-einlernen/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/06-kanaele-einlernen/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/04-allgemeines/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/07-motor-start-stop/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/07-motor-start-stop/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/04-sicherheitshinweise/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/08-zischgeraeusche/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/08-zischgeraeusche/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/05-allgemeines/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/09-produktbeschreibung/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/09-produktbeschreibung/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/05-produktbeschreibung/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/10-werkseinstellungen/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/10-werkseinstellungen/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/06-produktbeschreibung/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/11-anschluesse/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/11-anschluesse/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/06-technische-daten-klm-4-16/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/12-technische-daten/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/12-technische-daten/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/07-inbetriebnahme/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/13-inbetriebnahme/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/13-inbetriebnahme/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/08-funktionen/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/14-anschluss-an-den-empfaenger/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/14-anschluss-an-den-empfaenger/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/09-ansteuerungsvarianten-empfaengertyp/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/15-einlernen-der-kanaele/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/15-einlernen-der-kanaele/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/09-ansteuerungsvarianten-empfaengertypen/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/16-modellsounds/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/16-modellsounds/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/10-fahrverhalten/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/17-anschlussplaene/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/17-anschlussplaene/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/11-soundmodul/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/18-controlpanel/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/18-controlpanel/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/12-anschlussplaene/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/19-livedaten/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/19-livedaten/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/13-einstellmoeglichkeiten/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/20-geraeteinformationen/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/20-geraeteinformationen/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/14-steuerung-der-funktionen-licht-fahren-zusatz/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/21-systemeinstellungen/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/21-systemeinstellungen/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/15-pad-grund-oder-zusatzfunktionen/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/22-rs1-soundeinstellungen/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/22-rs1-soundeinstellungen/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/16-pad-licht-sound/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/23-soundtypen/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/23-soundtypen/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/17-multiswitch-robbe-graupner/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/24-soundeinstellungen-motorsounds/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/24-soundeinstellungen-motorsounds/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/18-benutzerdefinierte-belegung/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/25-zusatzsounds/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/25-zusatzsounds/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/18-benutzerdefinierte-kanalbelegung/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/26-neuen-sound-hinzufuegen/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/26-neuen-sound-hinzufuegen/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/19-controlpanel/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/27-anhang/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/02-Handb%C3%BCcher/K103D%20RS1%20Handbuch/K103D%20RS1%20Handbuch/27-anhang/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/20-updates/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/03-ControlPanel/ControlPanel/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/03-ControlPanel/ControlPanel/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/21-geraeteinformationen/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/04-Tickets/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/04-Tickets/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/22-systemanalyse/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/en/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://kraftwerk.shop/docs/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/23-kanaele-einlernen/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/01-rs1-controller-sound-combination-manual/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/01-rs1-controller-sound-combination-manual/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/24-problembehandlung/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/02-table-of-contents/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/02-table-of-contents/"/>
     </url>
     <url>
-         <loc>https://kraftwerk.shop/docs/de/de/manuals/K101D%20Handbuch%20EasyBus%20Lichtanlagen/25-anhang/</loc>
-         <lastmod>2026-05-12</lastmod>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/03-welcome/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/03-welcome/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/04-safety-instructions/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/04-safety-instructions/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/05-quick-overview/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/05-quick-overview/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/06-channel-learning/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/06-channel-learning/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/07-motor-start-stop/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/07-motor-start-stop/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/08-hissing-sounds/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/08-hissing-sounds/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/09-product-description/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/09-product-description/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/10-factory-settings/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/10-factory-settings/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/11-connections/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/11-connections/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/12-technical-specifications/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/12-technical-specifications/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/13-commissioning/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/13-commissioning/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/14-connecting-to-the-receiver/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/14-connecting-to-the-receiver/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/15-channel-learning-procedure/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/15-channel-learning-procedure/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/16-model-sounds/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/16-model-sounds/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/17-wiring-diagrams/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/17-wiring-diagrams/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/18-controlpanel-software/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/18-controlpanel-software/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/19-live-data/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/19-live-data/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/20-device-information/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/20-device-information/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/21-system-settings/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/21-system-settings/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/22-rs1-sound-settings/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/22-rs1-sound-settings/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/23-sound-types/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/23-sound-types/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/24-motor-sound-settings/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/24-motor-sound-settings/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/25-additional-sounds/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/25-additional-sounds/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/26-adding-new-sounds/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/26-adding-new-sounds/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/27-appendix-naming-conventions/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/27-appendix-naming-conventions/"/>
+    </url>
+    <url>
+        <loc>https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/28-glossary/</loc>
+        <lastmod>2026-05-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kraftwerk.shop/docs/en/02-Manuals/K103E%20RS1%20Manual/K103D%20RS1%20Handbuch/28-glossary/"/>
     </url>
 </urlset>
