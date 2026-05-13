@@ -22,19 +22,19 @@ theme:
     - content.action.edit
     
     
-#nav:
-#  - Handbücher:
-#      - K101D: de/manuals/K101D Handbuch EasyBus Lichtanlagen/
-#      - RS1: de/manuals/rs1/index.md
-#  - FAQ:
-#      - FAQ2: de/faq/faq.md
-#      - RS1: de/faq/rs1.md
-#      - ControlPanel: de/faq/controlpanel.md
-#  - Troubleshooting:
-#      - Allgemein: de/troubleshooting/allgemein.md
-#      - Module: de/troubleshooting/module.md
-#  - ControlPanel Download:
-#      - EasyBus: de/controlpanel_downloads.md
+nav:
+  - Handbücher:
+      - K101D: de/manuals/K101D Handbuch EasyBus Lichtanlagen/
+      - RS1: de/manuals/rs1/index.md
+  - FAQ:
+      - FAQ2: de/faq/faq.md
+      - RS1: de/faq/rs1.md
+      - ControlPanel: de/faq/controlpanel.md
+  - Troubleshooting:
+      - Allgemein: de/troubleshooting/allgemein.md
+      - Module: de/troubleshooting/module.md
+  - ControlPanel Download:
+      - EasyBus: de/controlpanel_downloads.md
 
       
 markdown_extensions:
