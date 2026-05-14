@@ -1,0 +1,1 @@
+Manuale combinazione suono regolatore RS1

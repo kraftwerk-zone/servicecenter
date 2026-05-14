@@ -1,0 +1,1 @@
+Manual de combinación de sonido del controlador RS1

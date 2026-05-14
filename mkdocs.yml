@@ -91,6 +91,33 @@ plugins:
           theme:
             language: en
           site_description: Technical documentation for products, modules and systems
+        - locale: es
+          name: Español
+          build: true
+          theme:
+            language: es
+          site_description: Documentación técnica de productos, módulos y sistemas
+        - locale: it
+          name: Italiano
+          build: true
+          theme:
+            language: it
+          site_description: Documentazione tecnica per prodotti, moduli e sistemi
+        # Tschechisch: ISO 639-1 = cs (Ordner docs/cs/); „cz“ ist kein gültiges Babel-Locale (git-revision-date).
+        - locale: cs
+          name: Čeština
+          build: true
+          theme:
+            language: cs
+          site_description: Technická dokumentace produktů, modulů a systémů
+        - locale: da
+          name: Dansk
+          build: true
+          theme:
+            language: da
+          site_description: Teknisk dokumentation for produkter, moduler og systemer
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 extra_css:
   - stylesheets/extra.css

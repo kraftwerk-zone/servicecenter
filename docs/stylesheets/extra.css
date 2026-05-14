@@ -36,3 +36,12 @@ body[data-md-color-accent="#ff9a01"] {
   color: #f29100;
   border-color: #f29100;
 }
+
+.meta-info {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.5rem;
+  opacity: 0.75;
+  text-align: left;
+  display: block;
+}
