@@ -8,8 +8,7 @@
 
 ## Wie installiere ich das ControlPanel?
 
-Im kraftwerk.shop‑Servicecenter findest du die aktuellen  
-[Downloads](https://kraftwerk.shop/Servicecenter/03-ControlPanel/ControlPanel/).
+Im kraftwerk.shop‑Servicecenter findest du die aktuellen [Downloads](https://kraftwerk.shop/Servicecenter/03-ControlPanel/ControlPanel/).
 
 1. Datei herunterladen  
 2. Ausführen  
