@@ -6,7 +6,7 @@
   "files": {
     "01-Häufig gestellte Fragen/.pages": "42f1aa190b0ae94a916919648ecadca09ad0762afdbe3670f265d8f48862902f",
     "01-Häufig gestellte Fragen/01-RS1.md": "a7c6cabff3dd2d347eb2cb359f188d333be575e8b1964a7084566737e59373ae",
-    "01-Häufig gestellte Fragen/02-ControlPanel.md": "b3b7fc53563b2fd6a1afd22456786d5361aa1470a738d660a51179573e2a86b2",
+    "01-Häufig gestellte Fragen/02-ControlPanel.md": "897dd05d93dd7e318fcd2511f78652d522817327570f3063aab210345a94a517",
     "02-Handbücher/.pages": "ba2b5add6f4d48370cf27ea3fe09f4c7b59e81a6a973eb1ea0acdd21a7119960",
     "02-Handbücher/K101D Handbuch EasyBus Lichtanlagen/01-handbuch-easybus-lichtanlagen.md": "f8bbce8954ec8bb16eb35f85c824136556e18af8d1a1787c594f885ffff17df9",
     "02-Handbücher/K101D Handbuch EasyBus Lichtanlagen/02-inhaltsverzeichnis.md": "745e2355435a613a7f5886fdff6db953b92c0d56682f8d367977f44488f2056e",
@@ -289,7 +289,7 @@
     "02-Handbücher/pdf/K301E RCMultiBus.pdf": "9a74895ed5d98985a81776c21aa8e394d86e9f2653b20b0f858830c337a70d43",
     "02-Handbücher/pdf/K301E RCMultiBus_1.pdf": "60a903d90efaaead9d2aefab6ebec198fad122ab1936b36a6788cdc299cb57b6",
     "03-ControlPanel/.pages": "e4eeba88f2921e4817df0d7dd1f6d8c352d11013894270461c6a382926af5711",
-    "03-ControlPanel/ControlPanel.md": "2b9eaa573e589b6f1e0b09f69b90b8c65ffe316023d6f199dc6a6bac2ac1f037",
+    "03-ControlPanel/ControlPanel.md": "b151f951cae18fd6cde733316d973e91269ee3c98713637043a0d17c6586f609",
     "04-Tickets/.pages": "1b4e4e686b53789a79e84a0ab110f60413f94aa5031568b4bd21c71f32199456",
     "04-Tickets/index.md": "0c18d242f067384225857e67a32ce29ab5a034d5c1d52dcc1597101888311077",
     "index.md": "6c5fe48d66053d1e0db30a3e6c63bc18470884f6ea4ab7cb07f0d21d0d9559bb"
