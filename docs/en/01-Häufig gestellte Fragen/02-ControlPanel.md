@@ -3,14 +3,12 @@
 </div>
 
 # Frequently Asked Questions – ControlPanel
-by Wolfgang · {{ git_revision_date_localized }}
 
 ---
 
 ## How do I install the ControlPanel?
 
-In the kraftwerk.shop Service Center you will find the current  
-[Downloads](https://kraftwerk.shop/Servicecenter/03-ControlPanel/ControlPanel/).
+In the kraftwerk.shop Service Center you can find the current [Downloads](https://kraftwerk.shop/Servicecenter/03-ControlPanel/ControlPanel/).
 
 1. Download the file  
 2. Run it  

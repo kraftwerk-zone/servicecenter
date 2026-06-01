@@ -3,14 +3,12 @@
 </div>
 
 # Domande frequenti – ControlPanel
-di Wolfgang · {{ git_revision_date_localized }}
 
 ---
 
 ## Come installo il ControlPanel?
 
-Nel Servicecenter di kraftwerk.shop trovi gli  
-[Download](https://kraftwerk.shop/Servicecenter/03-ControlPanel/ControlPanel/) aggiornati.
+Nel kraftwerk.shop‑Servicecenter trovi gli attuali [Download](https://kraftwerk.shop/Servicecenter/03-ControlPanel/ControlPanel/).
 
 1. Scaricare il file  
 2. Eseguire  
@@ -18,16 +16,16 @@ Nel Servicecenter di kraftwerk.shop trovi gli
    (il link a volte è un po' nascosto)  
 4. Completare l'installazione come di consueto  
 
-Dopo l'installazione, il ControlPanel si avvia automaticamente e di solito riconosce immediatamente i moduli collegati.
+Dopo l'installazione il ControlPanel si avvia automaticamente e di solito riconosce subito i moduli collegati.
 
 ---
 
-## Ogni volta parte l'installazione.
+## Da me parte sempre l’installazione.
 
 Per favore, **non** avviare il ControlPanel tramite il file scaricato.  
-Questo file è l'**installer** – e quindi avvia ogni volta nuovamente l'installazione.
+Questo file è l'**installer** – e quindi esegue ogni volta nuovamente l'installazione.
 
-Apri invece il ControlPanel tramite:
+Invece aprire il ControlPanel tramite:
 
 - il **menu Start**, oppure  
 - il **collegamento sul desktop**

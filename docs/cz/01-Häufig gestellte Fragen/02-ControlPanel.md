@@ -3,14 +3,12 @@
 </div>
 
 # Často kladené otázky – ControlPanel
-od Wolfganga · {{ git_revision_date_localized }}
 
 ---
 
 ## Jak nainstaluji ControlPanel?
 
-V servisním centru kraftwerk.shop najdeš aktuální  
-[Stahování](https://kraftwerk.shop/Servicecenter/03-ControlPanel/ControlPanel/).
+V servisním centru kraftwerk.shop najdeš aktuální [stahování](https://kraftwerk.shop/Servicecenter/03-ControlPanel/ControlPanel/).
 
 1. Stáhnout soubor  
 2. Spustit  
@@ -22,9 +20,9 @@ Po instalaci se ControlPanel automaticky spustí a obvykle okamžitě rozpozná 
 
 ---
 
-## U mě se instalace spouští pokaždé znovu.
+## U mě se pokaždé spustí instalace.
 
-Prosím, **ne** spouštěj ControlPanel přes stažený soubor.  
+Prosím, **nespouštěj** ControlPanel přes stažený soubor.  
 Tento soubor je **instalátor** – a proto pokaždé znovu spustí instalaci.
 
 Místo toho otevři ControlPanel přes:
@@ -36,5 +34,5 @@ Místo toho otevři ControlPanel přes:
 
 ## Systémová nastavení se nezobrazují.
 
-Na některých počítačích může docházet k problémům s vykreslováním.  
-V mnoha případech pomůže změna **velikosti okna**, protože tím se rozhraní znovu načte.
+Na některých počítačích může dojít k problémům s vykreslováním.  
+V mnoha případech pomůže již **změna velikosti okna**, protože tím se rozhraní znovu načte.
