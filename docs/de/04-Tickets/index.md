@@ -6,6 +6,6 @@ title: ""
 
 <h1 hidden></h1>
 
-<iframe src="https://ticketsystem-liart.vercel.app/"
+<iframe src="https://kraftwerk-platform-lia-one.vercel.app/"
         style="width:100%; height:900px; border:0; border-radius:6px;">
 </iframe>

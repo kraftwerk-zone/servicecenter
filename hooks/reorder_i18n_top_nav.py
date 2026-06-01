@@ -15,13 +15,14 @@ _TOP_LEVEL_INDEX = frozenset(
         "en/index.md",
         "es/index.md",
         "it/index.md",
-        "cs/index.md",
+        "cz/index.md",
         "da/index.md",
     }
 )
 
 # Reihenfolge: FAQ → Handbücher/Manuals → ControlPanel → Tickets (pro Sprache bekannte Tab-Titel)
 _TOP_LEVEL_ORDER = [
+    "News",
     # FAQ
     "Häufig gestellte Fragen",
     "Frequently Asked Questions",
