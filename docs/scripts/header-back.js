@@ -18,10 +18,11 @@ document.addEventListener("DOMContentLoaded", function () {
   var path = window.location.pathname.replace(/^\/+|\/+$/g, "");
   var parts = path.split("/");
   var locale = "de";
-  if (parts[0] === "docs") {
-    locale = langs[parts[1]] ? parts[1] : "de";
-  } else {
-    locale = langs[parts[0]] ? parts[0] : "de";
+  for (var i = 0; i < parts.length; i++) {
+    if (langs[parts[i]]) {
+      locale = parts[i];
+      break;
+    }
   }
 
   var languageLabel = document.createElement("span");
