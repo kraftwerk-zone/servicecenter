@@ -6,11 +6,11 @@ Všechny příkazy začínají 0xA1 nebo 0xA2, jsou kódovány jako Tag-Length-V
 | --- | --- | --- | --- | --- |
 | 0xA1 / 0xA2 | 0x6C | 0x03 | 0x01 0x01 0x01 | 0xCF |
 
-Kontrolní součet se vypočítá jako XOR přes všechny bajty s počáteční hodnotou 0xAA.
+Kontrolní součet se počítá jako XOR přes všechny bajty s počáteční hodnotou 0xAA.
 
-## SET\_FCT\_DIRECT – Přímé ovládání funkce
+## SET\_FCT\_DIRECT – Přímé řízení funkce
 
-Touto funkcí lze jednotlivé funkce přímo zapnout nebo vypnout.
+Touto funkcí lze jednotlivé funkce přímo zapínat nebo vypínat.
 
 | Startovní bajt | Tag (příkaz) | Délka | Hodnota (data) | Kontrolní součet |
 | --- | --- | --- | --- | --- |
@@ -24,7 +24,7 @@ Touto funkcí lze jednotlivé funkce přímo zapnout nebo vypnout.
 
 ## SET\_PARAMETER – Změna parametru
 
-Touto funkcí lze změnit parametry skriptu pro všechny výstupy, např. „nastavit všechny hodnoty jasu dálkových světel na 80 %“.
+Touto funkcí lze měnit parametry skriptu pro všechny výstupy, např. „nastavit všechny hodnoty jasu dálkových světel na 80 %“.
 
 | Startovní bajt | Tag (příkaz) | Délka | Hodnota (data) | Kontrolní součet |
 | --- | --- | --- | --- | --- |

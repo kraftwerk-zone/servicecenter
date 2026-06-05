@@ -1,22 +1,23 @@
-# Nejpodstatnější na první pohled
+# Nejpodstatnější přehledně
 
 ## Verze softwaru
 
-Prosím, vždy si stáhněte nejnovější verzi ControlPanelu a připojte modul. Aktualizace s novými funkcemi a opravami chyb se automaticky nainstalují.
+Stáhněte si prosím vždy nejnovější verzi ControlPanelu a připojte modul k vašemu PC. Všechny dostupné aktualizace, včetně nových funkcí a oprav chyb, budou automaticky nainstalovány.
 
 ## Stavová LED
 
-- **Zelená (normální):** LED krátce bliká každé dvě sekundy – normální provoz.
-- **Žlutá (StandBy):** LED bliká pomaleji – nejsou přijímány žádné řídicí signály.
-- **Rychlé červené blikání:** Podnapětí – aktivní výstražné blikání, motor se vypíná.
-- **Pomalé červené blikání nebo jiné barvy:** Kontaktujte prosím podporu.
+- **Zelená (krátké blikání každé 2 sekundy):** Normální provoz
+- **Žlutá (pomalejší blikání):** Režim StandBy, nejsou přijímány žádné řídicí signály
+- **Rychlé červené blikání:** Podnapětí – aktivní výstražné blikání, motor je vypnut
+- **Pomalé červené nebo jiné barevné blikání:** Kontaktujte prosím naši podporu
 
 ## StandBy přepínač
 
-Pomocí přepínače můžete model zapnout, vypnout nebo přepnout do režimu StandBy. V režimu StandBy všechny funkce pokračují, ale nejsou přijímány žádné řídicí signály z dálkového ovládání – to odpovídá demo režimu.
+Pomocí přepínače můžete model zapnout, vypnout nebo přepnout do režimu StandBy:
 
-![](images/image\_002.jpg)
+- **Režim StandBy:** Všechny funkce pokračují v chodu, ale nejsou přijímány žádné řídicí signály z dálkového ovládání – ideální pro demonstrace.
+- **Poloha OFF:** Regulátor, serva a sběrnicové moduly jsou vypnuty. Pozor: Může stále téct malý proud, což může vést k hlubokému vybití baterie. Proto vždy odpojte baterii, nejpozději na konci dne.
+
+![](images/image\_001.jpg)
 
 image2.jpeg
-
-V poloze OFF jsou regulátory, serva a sběrnicové moduly vypnuté. **Pozor:** I přesto může malý proud způsobit hluboké vybití baterie. Proto vždy baterii odpojte nejpozději na konci dne.

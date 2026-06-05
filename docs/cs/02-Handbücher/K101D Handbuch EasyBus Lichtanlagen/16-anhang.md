@@ -13,5 +13,5 @@
 ## Termíny
 
 - **ControlPanel:** Bezplatný PC software pro konfiguraci systému.
-- **Řídicí panel:** Pady namontované na dálkovém ovladači pro pohodlné ovládání.
+- **Řídicí panel:** Na dálkovém ovladači namontované panely pro pohodlné ovládání.
 - **Parametr:** Měnitelné hodnoty a nastavení v systému.

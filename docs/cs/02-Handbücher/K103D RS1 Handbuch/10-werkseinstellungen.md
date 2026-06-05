@@ -1,5 +1,5 @@
 # Výchozí nastavení
 
-![](images/image\_005.png)
+![](images/image\_004.png)
 
 image5.png

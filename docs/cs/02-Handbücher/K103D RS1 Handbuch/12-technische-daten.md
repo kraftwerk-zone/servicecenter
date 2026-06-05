@@ -2,30 +2,30 @@
 
 ## Regulátor otáček
 
-| Vlastnost | Popis |
+|  |  |
 | --- | --- |
 | Provozní napětí | 6 - 20 V |
 | BEC | 6 V / 3 A |
-| Přepínací frekvence | Nastavitelná až do 32 kHz |
-| Funkce spojky | Ano |
-| Podpora převodovky | Ano (plánována aktualizace) |
-| Simulace setrvačnosti | Volitelně |
-| Tempomat | Volitelně (plánována aktualizace) |
-| Ochranné funkce | Podnapětí baterie, zkrat motoru, přehřátí |
-| Servisní funkce | Proporcionální funkce, spínané, dvě a tři polohy, sedlová deska, podpěry návěsu, motor korby/sklápěče, motor rampy/plošiny, motor převodovky |
+| Přepínací frekvence | nastavitelná až do 32 kHz |
+| Funkce spojky | ano |
+| Podpora převodovky | ano (plánována aktualizace) |
+| Simulace setrvačnosti | volitelně |
+| Tempomat | volitelně (plánována aktualizace) |
+| Ochranné funkce | podnapětí baterie, zkrat motoru, přehřátí |
+| Servisní funkce | proporcionální funkce, přepínané, dvě polohy, tři polohy (např. sedlová deska, podpěry návěsu, motor korba/sklápěč, motor rampa/plošina, převodovka) |
 
 ## Zvuk
 
-| Vlastnost | Popis |
+|  |  |
 | --- | --- |
-| Počet zvuků | Neomezeně |
-| Současně přehrávané zvuky | Přibližně 10 |
-| Režimy přehrávání | Stisk tlačítka, smyčka, jednorázově, trvale, náhodně, zastavovací body |
+| Počet zvuků | neomezený |
+| Současně přehrávané zvuky | cca 10 |
+| Režimy přehrávání | stisk tlačítka, smyčka, jednou, trvale, náhodně, zastavovací body |
 | Použitelné formáty | WAV, MP3 |
-| Vzorkovací frekvence | Všechny (automatická konverze na 44 100 Hz) |
-| Regulace hlasitosti | Potenciometr, přes kanál, přes software |
-| SD karta | Max. 32 GB, formát FAT32 (větší karty lze formátovat na 32 GB) |
+| Použitá vzorkovací frekvence | všechny (automatická konverze na 44 100 Hz) |
+| Nastavení hlasitosti | potenciometr, přes kanál, přes software |
+| SD karta | max. 32 GB, větší karty lze formátovat na 32 GB FAT32 |
 
-![](images/image\_017.png)
+![](images/image\_016.png)
 
 image8.png

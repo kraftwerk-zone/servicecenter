@@ -1,1 +1,1 @@
-Manuál RS1 Regulátor-zvuková kombinace
+Příručka RS1 Regulátor-zvuková kombinace

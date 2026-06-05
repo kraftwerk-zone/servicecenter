@@ -1,7 +1,18 @@
 # Downloads & Changelogs – kraftwerk-zone.com
 
-## Beta2025.1 – ControlPanel (08.07.2025)
-**Download:** [ControlPanel 2025.1 Beta](https://exbzvwxbphbmzoewrupt.supabase.co/storage/v1/object/public/controlpanel/ControlPanel_jre_202510.exe)
+## 05.06.2026 ControlPanel 2026.2
+**Download:** [ControlPanel 2026.2 Beta](https://xeasnvwjvovhvvnjptie.supabase.co/storage/v1/object/public/updates/controlpanel/ControlPanel_jre_202620.exe)
+**Größe:** 151 MB
+
+### Änderungen
+- PremiumSounds auf neue Infrastruktur umgestellt. Anmeldung mit Emailadresse und Passwort oder Emailadresse und Bestellnummer
+- Potentielles KLM 4/16 Updateproblem behoben
+- Potentielles RS1 Updateproblem behoben
+
+---
+
+## 08.07.2025 - ControlPanel 2025.1Beta
+**Download:** [ControlPanel 2025.1 Beta](https://xeasnvwjvovhvvnjptie.supabase.co/storage/v1/object/public/updates/controlpanel/ControlPanel_jre_202510.exe)
 **Größe:** 151 MB
 
 ### Änderungen

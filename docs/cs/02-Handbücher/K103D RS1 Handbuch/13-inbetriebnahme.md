@@ -1,41 +1,52 @@
 # Uvedení do provozu
 
-RS1 musí být připojen k pěti kanálům přijímače. Pomocí jumperů lze nakonfigurovat použití ovládacího panelu pro světlo a zvuk.
+RS1 musí být připojen k pěti kanálům přijímače. Pomocí propojky lze nakonfigurovat použití ovládacího panelu pro světlo a zvuk.
 
-![](images/image\_008.png)
+![](images/image\_007.png)
 
 image9.png
 
-**Pravý jumper zasunut:** Ovládací panel připojen k K3.
+## Ovládací panel na K3 (pravá propojka zapnutá)
 
-Motorová brzda je aktivní, dokud je K2 stisknutý nahoru, pokud to modelový zvuk podporuje. Pokud je K2 stažen dolů a poté krátce stisknut doprava, přepne se houkačka na roh a fanfáru (pokud je podporováno).
+- Motorová brzda je aktivní, dokud je K2 stisknuto nahoru (pokud to modelový zvuk podporuje).
+- Pokud je K2 staženo dolů a pak poklepáno doprava, přepne houkačka na roh a fanfáru (pokud je podporováno).
 
-![](images/image\_009.png)
+![](images/image\_008.png)
 
 image11.png
 
-![](images/image\_018.png)
+  
+![](images/image\_017.png)
 
 image13.png
 
-**Horní jumper není zasunut:** Ovládání pomocí tlačítka na K3.
+## Ovládání bez ovládacího panelu (horní propojka není zapnutá)
 
-Bez ovládacího panelu je rozložení kanálů hustší. Plyn, řízení, hlasitost a zátěž jsou ovládány stejně jako na ovládacím panelu. Motorová brzda je navržena jako paměťová funkce: krátké stisknutí ji aktivuje/deaktivuje, dlouhé stisknutí spustí/zastaví motor, poloviční stisknutí aktivuje houkačku. Přepnutí houkačky na roh/fanfáru probíhá, jak je popsáno výše.
+Přiřazení kanálů je zde hustší. Plyn, řízení, hlasitost a zatížení jsou ovládány stejně jako při použití ovládacího panelu.
 
-![](images/image\_011.png)
+- Motorová brzda jako paměťová funkce: krátké poklepání aktivuje/deaktivuje motorovou brzdu.
+- Dlouhé stisknutí nahoru spustí/zastaví motor.
+- Poloviční poklepání aktivuje houkačku.
+- Pokud je K2 staženo dolů a pak poklepáno doprava, přepne houkačka na roh a fanfáru.
+
+![](images/image\_010.png)
 
 image15.png
 
-![](images/image\_012.png)
+  
+![](images/image\_011.png)
 
 image17.png
 
-Při použití tlačítka na K3 jsou přepínatelné pouze plné funkce. Poloviční funkce lze realizovat pomocí mixéru vysílače.
+## Poznámka k použití tlačítka na K3
 
-![](images/image\_013.png)
+Pokud je na K3 použito tlačítko, lze ovládat pouze plné funkce. Pomocí odpovídajících mixérů vysílače lze realizovat i poloviční funkce.
+
+![](images/image\_012.png)
 
 image19.png
 
-![](images/image\_014.png)
+  
+![](images/image\_013.png)
 
 image20.png

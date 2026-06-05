@@ -1,3 +1,11 @@
 # Informace o zařízení
 
-Zde jsou zobrazeny všechny informace specifické pro modul, např. název, verze softwaru, verze zvukového enginu, verze bootloaderu, počet výstupů, datum výroby a typ zařízení.
+Zde jsou zobrazeny všechny informace specifické pro modul, včetně:
+
+- Název modulu
+- Verze softwaru
+- Verze zvukového enginu
+- Verze bootloaderu
+- Počet výstupů
+- Datum výroby
+- Typ zařízení

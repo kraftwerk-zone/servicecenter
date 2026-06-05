@@ -14,8 +14,8 @@ image42.png
 
 | Název | Popis |
 | --- | --- |
-| Startverzögerung [s] | Zpožďuje spuštění systému, aby se zohlednily doby rozběhu vysílače. |
-| Einlernmodus [aktiv] | Aktivuje/deaktivuje manuální režim učení (plyn a řízení v krajní poloze). Učení v ControlPanel zůstává aktivní. |
+| Startverzögerung [s] | Zpožďuje spuštění systému, aby se zohlednily doby rozběhu dálkového ovládání. |
+| Einlernmodus [aktiv] | Aktivuje/deaktivuje manuální režim učení (plyn a řízení v koncovém úhlu). Učení ControlPanel zůstává aktivní. |
 | Infrarot [ein] | Přepíná výstup 8 do režimu infračerveného provozu. |
 | Blinker Ein/Aus | Definuje dobu zapnutí a vypnutí blinkru v krocích po 10 ms. |
 | Empfängertyp | Viz kapitola 8 „Ansteuerungsvarianten / Empfängertyp“. |
@@ -29,7 +29,7 @@ image42.png
 | Motor läuft sofort [aktiv] | Viz kapitola 10 „Soundmodul“. |
 | Motor Start Dauer | Doba blikání při startu motoru. |
 | Pad Alles Ein/Aus | Konfigurace tlačítka „Alles Ein/Aus“ na ovládacích panelech. |
-| Pad Light&Sound Fernlicht / Nebelscheinwerfer | Viz příručka ovládacího panelu Light & Sound. |
+| Pad Light&Sound Fernlicht / Nebelscheinwerfer | Viz příručka ovládacího panelu světel a zvuku. |
 | Belegung K1 – K12 | Viz kapitola 13.6 „Benutzerdefiniert“. |
 
 ## Ovládání funkcí Světlo – Jízda – Doplňky
@@ -42,8 +42,8 @@ image43.png
 
 **Učení kanálů:**
 
-1. Plyn – brzda  
-2. Vlevo – vpravo  
+1. Plyn – Brzda  
+2. Vlevo – Vpravo  
 3. K1 vlevo – vpravo  
 4. K2 nahoru – dolů  
 
@@ -53,13 +53,13 @@ image44.png
 
 ## Přepínání světelných funkcí
 
-- Stálé světlo, potkávací světlo: K2 nahoru + krátce K1 vlevo ťuknout  
-- Dálkové světlo: K2 nahoru + krátce K1 vpravo ťuknout (pouze pokud je stálé světlo zapnuto)  
-- Mlhové světlo, zadní mlhové světlo: K2 nahoru + dlouze K1 vpravo ťuknout (pouze pokud je stálé světlo zapnuto)  
-- Blinkr vlevo/vpravo: K2 střed + krátce K1 vlevo/vpravo ťuknout  
-- Výstražná světla: K2 střed + dlouze K1 vpravo ťuknout  
-- Světelná houkačka: K2 střed + dlouze K1 vlevo ťuknout (po prvním zapnutí lze K1 vlevo ovládat přímo)  
-- Doplňkové funkce: K2 dolů + K1 v krajní poloze (vlevo/vpravo) krátce nebo dlouze stisknout  
+- Stálé světlo, potkávací světlo: K2 nahoru + krátce K1 vlevo  
+- Dálkové světlo: K2 nahoru + krátce K1 vpravo (pouze pokud je stálé světlo zapnuto)  
+- Mlhové světlo, zadní mlhové světlo: K2 nahoru + dlouze K1 vpravo (pouze pokud je stálé světlo zapnuto)  
+- Blinkr vlevo/vpravo: K2 střed + krátce K1 vlevo/vpravo  
+- Výstražná světla: K2 střed + dlouze K1 vpravo  
+- Světelný signál: K2 střed + dlouze K1 vlevo (po prvním zapnutí lze K1 vlevo ovládat přímo)  
+- Doplňkové funkce: K2 dolů + K1 v koncovém úhlu (vlevo/vpravo) krátce nebo dlouze  
 
 ![](images/image\_013.png)
 
@@ -73,7 +73,7 @@ image54.png
 
 Panely kódují stisky tlačítek jako pohyby nahoru a dolů. KLM je dekóduje a ovládá funkce. Panely se připojují k vysílači a k K1 nebo K2 KLM.
 
-Pro učení kanálů musí být panel přepnut do režimu nastavení (současným stisknutím dvou horních pravých tlačítek pro nastavení). Alternativně použijte průvodce „Kanäle Einlernen“ v ControlPanel.
+Pro učení kanálů musí být panel přepnut do režimu nastavení (současným stiskem dvou horních pravých tlačítek pro nastavení). Alternativně použijte průvodce „Kanäle Einlernen“ v ControlPanelu.
 
 ![](images/image\_015.png)
 
@@ -83,7 +83,7 @@ image61.png
 
 image63.png
 
-## Panel Light & Sound
+## Panel Světlo & Zvuk
 
 Ovládá funkce podle stisku tlačítka s výchylkami od +100 do -100 %. Připojení a ovládání je analogické základním a doplňkovým funkcím.
 
@@ -91,9 +91,9 @@ Ovládá funkce podle stisku tlačítka s výchylkami od +100 do -100 %. Připoj
 
 image65.png
 
-Funkce jsou rozděleny do krátkých, dlouhých a doplňkových úrovní. Světelná houkačka, klakson a další funkce se aktivují dlouhým stiskem a poté lze ovládat krátkými stisky.
+Funkce jsou rozděleny do krátkých, dlouhých a doplňkových úrovní. Světelný signál, klakson a další funkce se aktivují dlouhým stiskem a poté lze ovládat krátkými stisky.
 
-Po dvou sekundách nečinnosti se obnoví původní nastavení.
+Po dvou sekundách nečinnosti se obnoví původní přiřazení.
 
 ![](images/image\_018.png)
 
@@ -101,7 +101,7 @@ image67.png
 
 ## Multiswitch Robbe/Graupner
 
-Oba protokoly jsou automaticky rozpoznány. Hodnoty Multiswitch lze přiřadit kanálům K3 až K12 v průvodci LiveDaten a nastavit uživatelsky.
+Oba protokoly jsou automaticky rozpoznány. Hodnoty multiswitch lze přiřadit kanálům K3 až K12 v průvodci živými daty a nastavit uživatelsky.
 
 ![](images/image\_019.png)
 
@@ -119,7 +119,7 @@ image69.png
 
 image70.png
 
-Funkce lze definovat jako „Dauer“ (trvalá), „Memory kurz“ (krátká paměť) nebo „Memory lang“ (dlouhá paměť). Příklady jsou světelné funkce, klakson, spojka návěsu, podpěry, korba, rampa, startování, řazení, servo1/2 atd.
+Funkce lze definovat jako „trvalé“, „paměť krátká“ nebo „paměť dlouhá“. Příklady jsou světelné funkce, klakson, spojka návěsu, podpěry, korba, rampa, startování, řazení, servo1/2 atd.
 
 ![](images/image\_022.png)
 

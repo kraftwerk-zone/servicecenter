@@ -16,7 +16,7 @@ image73.png
 
 ## Přehled modulů
 
-Kliknutím na modul se dostanete do přehledu výstupů. Zde můžete přiřadit jména, nastavit rychlosti zapnutí a vypnutí a podle funkce konfigurovat další parametry.
+Kliknutím na modul přejdete na přehled výstupů. Zde můžete přiřadit jména, nastavit rychlosti zapnutí a vypnutí a podle funkce konfigurovat další parametry.
 
 Změny uložíte ikonou diskety. Nápovědy jsou dostupné přes otazník. Pomocí ikony oka lze výstupy na modelu přímo aktivovat, aby se usnadnilo přiřazení.
 
@@ -26,10 +26,10 @@ image74.png
 
 ## Dvojí přiřazení
 
-Každý výstup může být přiřazen dvakrát. Příklad:
+Každý výstup může mít dvojí přiřazení. Příklad:
 
 - První úroveň: poziční světlo & dálkové světlo
-- Druhá úroveň: výstražné blinkry
+- Druhá úroveň: výstražná světla
 
 Přepínání mezi úrovněmi je konfigurovatelné.
 
@@ -51,9 +51,9 @@ image77.png
 | **Informace o zařízeních** | Informace o modulech, aktualizace, tovární nastavení. |
 | **Analýza systému** | Selftest, test komunikace, hledání poškozených modulů. |
 | **Průvodce učením kanálů** | Podpora při učení kanálů. |
-| **Logging** | Protokol komunikace pro hledání chyb. |
+| **Logování** | Protokol komunikace pro hledání chyb. |
 | **Průvodce živými daty** | Zobrazení polohy pák a stavů přepínačů v reálném čase. |
-| **Průvodce efekty** | Konfigurace efektů výstražných světel a KnightRider efektů. |
+| **Průvodci efekty** | Konfigurace efektů majáků a KnightRider. |
 | **Nastavení** | Rozšířené možnosti, režim experta (varování před možným poškozením). |
 | **Info** | Informace o ControlPanelu a hlášení chyb. |
 
@@ -66,7 +66,7 @@ image85.png
 - Zobrazit hlavní obrazovku
 - Znovu připojit systém
 - Znovu načíst moduly
-- Světla Vypnuto / poziční světlo / potkávací světlo / dálkové světlo / mlhové světlo / zadní mlhové světlo Zapnuto/Vypnuto
+- Světla vypnuta / poziční světlo / potkávací světlo / dálkové světlo / mlhovky / zadní mlhovka zapnuto/vypnuto
 - Zobrazit živá data
 - Informace o zařízeních
 - Nastavení systému
@@ -84,7 +84,7 @@ image86.png
 |  |  |
 | --- | --- |
 | [[IMAGE\_078]] | Pokud jsou kanály správně naučené, musí modré body sledovat pohyby vaší páky. Pokud používáte CPPM, IBUS nebo SBUS, musí být kanály také správně přiřazeny. |
-| 665544332211 [[IMAGE\_079]] | Zde jsou zobrazeny všechny kanály tak, jak jsou skutečně měřeny. Informace o učení nejsou zde zohledněny, tj. pruhy se mohou pohybovat i dolů, i když je páka posunuta nahoru.1: Změna přiřazení kanálu by měla být provedena pouze při použití CPPM, IBUS nebo SBUS.2-5: Tyto hodnoty jsou nastaveny během učení. 1000 – 2000 a 1500 střední poloha jsou standardní hodnoty. Hodnoty lze upravit a uložit.6: Posuňte doprava pro zobrazení hodnot dalších kanálů (platí pouze pro CPPM, IBUS, SBUS) |
+| 665544332211 [[IMAGE\_079]] | Zde jsou zobrazeny všechny kanály tak, jak jsou skutečně měřeny. Informace o učení nejsou zohledněny, tj. pruhy se mohou pohybovat i dolů, i když páka jde nahoru.1: Změna přiřazení kanálu by měla být provedena pouze při použití CPPM, IBUS nebo SBUS.2-5: Tyto hodnoty jsou nastaveny během učení. 1000 – 2000 a 1500 střední poloha jsou standardní hodnoty. Hodnoty lze upravit a uložit.6: Posuňte doprava pro zobrazení hodnot dalších kanálů (platí jen pro CPPM, IBUS, SBUS) |
 |  | Pravá strana živých dat zobrazuje stavy přepínačů. Některé lze nastavit kliknutím.Tři skupiny funkcí základní světelné funkce, doplňkové funkce a analogové lze použít jako přepínače u funkcí, například u funkce jednoduchý přepínač. [[IMAGE\_080]] [[IMAGE\_081]] |
 
 ![](images/image\_030.png)
@@ -97,7 +97,7 @@ Při správném učení modré body sledují pohyby páky. Pro CPPM, I-BUS nebo 
 
 image88.png
 
-Pravá strana zobrazuje stavy přepínačů, které lze částečně změnit kliknutím.
+Pravá strana zobrazuje stavy přepínačů, které lze částečně měnit kliknutím.
 
 ![](images/image\_032.png)
 
@@ -117,10 +117,10 @@ image6.png
 
 Tipy pro bezpečnou aktualizaci:
 
-- Aktualizujte vždy pouze jeden modul najednou.
+- Aktualizujte vždy jen jeden modul najednou.
 - Vyhněte se přerušení napájení.
 - Odpojte serva a motory během aktualizace.
-- Restartujte model a ControlPanel při problémech.
+- Při problémech restartujte model i ControlPanel.
 
 ![](images/image\_035.png)
 
@@ -144,7 +144,7 @@ image94.png
 
 image95.png
 
-Po aktualizacích jsou zobrazeny všechny moduly. KLM 4/16 se skládá z hlavního modulu se čtyřmi servo výstupy a integrovaným rozšířením přepínačů s 16 spínacími výstupy.
+Po aktualizacích jsou zobrazeny všechny moduly. KLM 4/16 se skládá z hlavního modulu se čtyřmi servo výstupy a integrovaným rozšířením přepínačů se 16 spínacími výstupy.
 
 ![](images/image\_040.png)
 
@@ -152,9 +152,9 @@ image73.png
 
 ## Informace o zařízeních
 
-Zobrazení základních informací o modulech. „Zobrazit zařízení“ zapne první tři výstupy, užitečné u více rozšíření bez pojmenování.
+Zobrazení základních informací o modulech. „Zobrazit zařízení“ zapne první tři výstupy, užitečné při více rozšířeních bez pojmenování.
 
-Moduly lze restartovat, resetovat na tovární nastavení nebo aktualizovat.
+Moduly lze restartovat, obnovit tovární nastavení nebo aktualizovat.
 
 ![](images/image\_041.png)
 

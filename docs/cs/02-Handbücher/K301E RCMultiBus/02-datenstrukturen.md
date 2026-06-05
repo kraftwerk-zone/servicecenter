@@ -8,21 +8,21 @@ Základní funkce jsou kódovány v 5 bajtech:
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0 | Výstražná světla | Levý blinkr | Pravý blinkr | Dálkové blikání | Mlhové světlo | Dálkové světlo | Potkávací světlo | Parkovací světlo |
 | 1 | Zvedací nohy nahoru | Páté kolo | Motor běží | Startování | Houkačka | Zadní mlhové světlo | Brzdové světlo | Zpětné světlo |
-| 2 | Pravý blinkr impuls | Výstražné světlo | Denní svícení | Levé přisvěcování do zatáčky | Pravé přisvěcování do zatáčky | Sklápění korby dolů | Sklápění korby nahoru | Zvedací nohy dolů |
-| 3 | Interní/RFU | Signální klakson | Zařazení nižšího stupně | Zařazení vyššího stupně | Levé světlo do zatáčky | Pravé světlo do zatáčky | Interní/RFU | Levý blinkr impuls |
-| 4 | Servo 2 | Servo 1 | Převod 2/2 | Převod 1/2 | Úroveň podložky | Sklápění rampy dolů | Sklápění rampy nahoru | Interní/RFU |
+| 2 | Impuls pravého blinkru | Maják | Denní svícení | Levé přídavné světlo | Pravé přídavné světlo | Sklápění korby dolů | Sklápění korby nahoru | Zvedací nohy dolů |
+| 3 | Interní/RFU | Signální klakson | Zařazení nižšího stupně | Zařazení vyššího stupně | Levé zatáčkové světlo | Pravé zatáčkové světlo | Interní/RFU | Impuls levého blinkru |
+| 4 | Servo 2 | Servo 1 | Stupeň 2/2 | Stupeň 1/2 | Úroveň podložky | Sklápění rampy dolů | Sklápění rampy nahoru | Interní/RFU |
 
-## Dodatečné funkce (Tag 0x05)
+## Přídavné funkce (Tag 0x05)
 
 | Offset | Bit 7 | Bit 6 | Bit 5 | Bit 4 | Bit 3 | Bit 2 | Bit 1 | Bit 0 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0 | CH1 Paměť Poloviční Krátká Pravá | CH1 Paměť Poloviční Krátká Levá | CH1 Pravá Plná | CH1 Levá Plná | CH1 Paměť Plná Dlouhá Pravá | CH1 Paměť Plná Dlouhá Levá | CH1 Paměť Plná Krátká Pravá | CH1 Paměť Plná Krátká Levá |
-| 1 | CH2 Paměť Plná Dlouhá Pravá | CH2 Paměť Plná Dlouhá Levá | CH2 Paměť Plná Krátká Pravá | CH2 Paměť Plná Krátká Levá | CH1 Pravá Poloviční | CH1 Levá Poloviční | CH1 Paměť Poloviční Dlouhá Pravá | CH1 Paměť Poloviční Dlouhá Levá |
-| 2 | CH2 Pravá Poloviční | CH2 Levá Poloviční | CH2 Paměť Poloviční Dlouhá Pravá | CH2 Paměť Poloviční Dlouhá Levá | CH2 Paměť Poloviční Krátká Pravá | CH2 Paměť Poloviční Krátká Levá | CH2 Pravá Plná | CH2 Levá Plná |
+| 0 | CH1 Paměť Poloviční Krátký Pravý | CH1 Paměť Poloviční Krátký Levý | CH1 Pravý Plný | CH1 Levý Plný | CH1 Paměť Plný Dlouhý Pravý | CH1 Paměť Plný Dlouhý Levý | CH1 Paměť Plný Krátký Pravý | CH1 Paměť Plný Krátký Levý |
+| 1 | CH2 Paměť Plný Dlouhý Pravý | CH2 Paměť Plný Dlouhý Levý | CH2 Paměť Plný Krátký Pravý | CH2 Paměť Plný Krátký Levý | CH1 Pravý Poloviční | CH1 Levý Poloviční | CH1 Paměť Poloviční Dlouhý Pravý | CH1 Paměť Poloviční Dlouhý Levý |
+| 2 | CH2 Pravý Poloviční | CH2 Levý Poloviční | CH2 Paměť Poloviční Dlouhý Pravý | CH2 Paměť Poloviční Dlouhý Levý | CH2 Paměť Poloviční Krátký Pravý | CH2 Paměť Poloviční Krátký Levý | CH2 Pravý Plný | CH2 Levý Plný |
 | … | … | | | | | | | |
-| 45 | CH31 Paměť Poloviční Krátká Pravá | CH31 Paměť Poloviční Krátká Levá | CH31 Pravá Plná | CH31 Levá Plná | CH31 Paměť Plná Dlouhá Pravá | CH31 Paměť Plná Dlouhá Levá | CH31 Paměť Plná Krátká Pravá | CH31 Paměť Plná Krátká Levá |
-| 46 | CH32 Paměť Plná Dlouhá Pravá | CH32 Paměť Plná Dlouhá Levá | CH32 Paměť Plná Krátká Pravá | CH32 Paměť Plná Krátká Levá | CH31 Pravá Poloviční | CH31 Levá Poloviční | CH31 Paměť Poloviční Dlouhá Pravá | CH31 Paměť Poloviční Dlouhá Levá |
-| 47 | CH32 Pravá Poloviční | CH32 Levá Poloviční | CH32 Paměť Poloviční Dlouhá Pravá | CH32 Paměť Poloviční Dlouhá Levá | CH32 Paměť Poloviční Krátká Pravá | CH32 Paměť Poloviční Krátká Levá | CH32 Pravá Plná | CH32 Levá Plná |
+| 45 | CH31 Paměť Poloviční Krátký Pravý | CH31 Paměť Poloviční Krátký Levý | CH31 Pravý Plný | CH31 Levý Plný | CH31 Paměť Plný Dlouhý Pravý | CH31 Paměť Plný Dlouhý Levý | CH31 Paměť Plný Krátký Pravý | CH31 Paměť Plný Krátký Levý |
+| 46 | CH32 Paměť Plný Dlouhý Pravý | CH32 Paměť Plný Dlouhý Levý | CH32 Paměť Plný Krátký Pravý | CH32 Paměť Plný Krátký Levý | CH31 Pravý Poloviční | CH31 Levý Poloviční | CH31 Paměť Poloviční Dlouhý Pravý | CH31 Paměť Poloviční Dlouhý Levý |
+| 47 | CH32 Pravý Poloviční | CH32 Levý Poloviční | CH32 Paměť Poloviční Dlouhý Pravý | CH32 Paměť Poloviční Dlouhý Levý | CH32 Paměť Poloviční Krátký Pravý | CH32 Paměť Poloviční Krátký Levý | CH32 Pravý Plný | CH32 Levý Plný |
 
 ## Proporcionální funkce (Tag 0x41)
 

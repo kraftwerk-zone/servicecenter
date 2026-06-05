@@ -1,25 +1,25 @@
 # Jízdní chování
 
-## Typ regulátoru rychlosti
+## Typ regulátoru jízdy
 
-KLM 4/16 je kompatibilní se všemi regulátory rychlosti. Pro správné ovládání brzdového a zpětného světla musí být typ regulátoru rychlosti správně nastaven v systémových nastaveních:
+Základně je každý regulátor jízdy kompatibilní s EasyBus. Pro správné ovládání brzdového a zpětného světla musí být nastaven správný typ regulátoru jízdy:
 
-- **Jednoduchý:** Jízda vzad začne ihned po zatažení páčky dozadu.
-- **Brzda odděleně:** Nejprve brzda, poté jízda vzad opětovným zatažením.
-- **Standardní tempomat:** Přechod z brzdění přímo do jízdy vzad bez extra přepínacího kanálu.
-- **Servonaut tempomat:** Přepínání rychlostí přes K1, servo výstup na „Proporcionální funkce K1“.
-- **Servonaut volnoběh:** Jako Servonaut tempomat, ale s volnoběžnou polohou.
-- **Servonaut K40:** Speciální režim pro regulátor rychlosti K40.
-- **Analogové brzdové/zpětné světlo:** Napájení existujících spínacích výstupů regulátoru rychlosti.
+- **Jednoduchý:** Jízda vzad začne ihned po pohnutí pákou dozadu.
+- **Brzda oddělená:** Nejprve brzda, poté jízda vzad po opětovném zatažení.
+- **Standardní tempomat:** Zpoždění přechází přímo do jízdy vzad.
+- **Servonaut tempomat:** Přepínání rychlostí přes K1, servo výstup nastavit na „Proporcionální funkce K1“.
+- **Servonaut volnoběh:** Jako Servonaut tempomat, ale s volnoběžnou polohou mezi jízdou vpřed a vzad.
+- **Servonaut K40:** Brzdové a zpětné světlo spínáno ve stylu K40.
+- **Analogové brzdové/zpětné světlo:** Analogové připojení spínacích výstupů regulátoru jízdy (viz kapitola 11.4).
 
 ## Inteligentní brzdové světlo
 
-Brzdové světlo se rozsvítí již při zpomalování (ne až při jízdě vzad). Citlivost a doba svícení jsou nastavitelné.
+Brzdové světlo se rozsvítí již při zpomalení, ne až při jízdě vzad. Citlivost a doba dohoření jsou nastavitelné v systémových nastaveních.
 
 ## Typ řízení
 
-Standardně musí být blinkr zapnut ručně a automaticky se vypne. Alternativně lze aktivovat automatický blinkr při zatáčení. „Prahová hodnota blinkru“ definuje spouštěcí práh.
+Standardně musí být blinkr zapnut ručně a automaticky se vrací do výchozí polohy. Alternativně lze zvolit „Automatický blinkr“, který se při zatáčení aktivuje automaticky. „Prahová hodnota blinkru“ definuje úroveň aktivace.
 
-## Typ zatáčkového světla
+## Typ světla do zatáček
 
-Chování zatáčkového světla lze řídit parametrem „Typ zatáčkového světla“. Možnosti jsou samovysvětlující.
+Chování světla do zatáček lze nastavit parametrem „Typ světla do zatáček“. Možnosti jsou samozřejmé.

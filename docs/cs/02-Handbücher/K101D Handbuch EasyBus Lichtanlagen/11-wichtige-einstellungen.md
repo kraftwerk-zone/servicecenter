@@ -11,6 +11,6 @@ Podle zvukového modulu je třeba upravit systémové nastavení „Motor běž�
 
 ## Světla blikají
 
-Každá osvětlovací deska a rozšíření spínače (KLB) má systémová nastavení pro „Startovací efekt“ (blikání při startu) a „Snížení světla při zastavení motoru“ (snížení při zastavení motoru). Poslední možnost používejte pouze, pokud nejsou připojeny komponenty s integrovanou elektronikou.
+Každá osvětlovací deska a rozšíření spínače (KLB) má systémová nastavení pro „Startovací efekt“ (blikání při startu) a „Snížení světla při zastavení motoru“ (snížení při zastavení motoru). Poslední možnost používejte pouze, pokud nejsou připojeny žádné komponenty s integrovanou elektronikou.
 
-Doba blikání může být nastavena pomocí „Doba startu motoru“ tak, aby odpovídala délce startovacího zvuku.
+Doba blikání může být nastavena pomocí „Doba startu motoru“ tak, aby odpovídala době startovacího zvuku.

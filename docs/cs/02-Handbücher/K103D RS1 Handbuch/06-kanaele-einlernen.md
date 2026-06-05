@@ -1,15 +1,13 @@
 # Naučit kanály
 
-Naučení kanálů je nutné provést jednou. Existují tři možnosti:
+Naučení kanálů je nezbytné a provádí se jednorázově. Existují tři metody:
 
-1. Bez PC – viz kapitola 8.4 „Naučení kanálů“
-2. Pomocí průvodce učením v ControlPanelu pod *System > Kanäle einlernen*
-3. Jednotlivě v LiveDaten
+1. Bez PC, jak je popsáno v kapitole 8.4 „Naučení kanálů“.
+2. Pomocí průvodce naučením v ControlPanelu pod *System > Kanäle einlernen*.   
+   ![](images/image\_002.png)
 
-![](images/image\_003.png)
+   image3.png
+3. Jednotlivě v LiveDaten.   
+   ![](images/image\_003.png)
 
-image3.png
-
-![](images/image\_004.png)
-
-image4.png
+   image4.png

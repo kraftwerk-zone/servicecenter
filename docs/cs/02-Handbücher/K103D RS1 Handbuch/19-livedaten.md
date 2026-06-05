@@ -1,13 +1,15 @@
 # LiveData
 
-Pohled LiveData nabízí vizualizaci v reálném čase dráhy páček a stavů přepínačů. V levém dolním rohu lze při použití IBUS, SBUS nebo SUMD upravit přiřazení kanálů. Kanály lze zde také jednotlivě naučit kliknutím na tlačítko „Einlernen“ a následováním pokynů.
+Pohled LiveData nabízí vizualizaci v reálném čase dráhy pák a stavů přepínačů. V levém dolním rohu lze upravit přiřazení kanálů, zejména při použití IBUS, SBUS nebo SUMD. Kanály lze zde také jednotlivě naučit.
 
-![](images/image\_031.png)
+Pro naučení klikněte na tlačítko „Einlernen“ a postupujte podle pokynů.
+
+![](images/image\_030.png)
 
 image45.png
 
-V závislosti na ovládacím panelu nebo dálkovém ovladači SUMD se může pravý pohled lišit.
+Pravá strana pohledu se přizpůsobuje podle ovládacího panelu nebo dálkového ovladače SUMD.
 
-![](images/image\_032.png)
+![](images/image\_031.png)
 
 image46.png

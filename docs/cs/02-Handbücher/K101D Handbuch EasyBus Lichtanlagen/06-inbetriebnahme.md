@@ -1,22 +1,26 @@
 # Uvedení do provozu
 
-Pro uvedení systémů KraftwerK EasyBus nejsou potřeba žádné speciální kroky. Přesto doporučujeme dodržet následující kontrolní seznam:
+Pro uvedení systémů KraftwerK EasyBus nejsou potřeba žádné speciální kroky. Přesto doporučujeme dodržet následující kontrolní seznam.
 
 ## Připojení k přijímači
 
-![](images/image\_043.png)
+![](images/image\_065.png)
 
 image6.png
 
-Před připojením KLM 4/16 k přijímači prosím zkontrolujte zapojení výstupů přijímače. Použijte servo a otestujte každý výstup na správnou funkci. Zaznamenejte zapojení.
+Před připojením KLM 4/16 k přijímači prosím zkontrolujte zapojení výstupů přijímače. Použijte k tomu servo a otestujte každý výstup na správnou funkci. Zaznamenejte si zapojení.
 
-**Poznámka:** Doporučuje se model zvednout, aby nedošlo k nechtěnému rozjetí.
+![](images/image\_002.jpg)
 
-Připojte servokabely pro řízení a plyn k odpovídajícím výstupům přijímače. Regulátor rychlosti a servo řízení se připojují k servo výstupům KLM. Kanály K1 a K2 lze volitelně použít.
+image7.jpeg
 
-**Tip:** Připojení kanálu plynu a/nebo řízení může být vynecháno, pokud jsou brzda, zpětné světlo a/nebo blinkry napájeny analogově (viz kapitola 11.5).
+**Poznámka:** Aby nedošlo k nechtěnému rozjetí, doporučuje se model zvednout.
 
-**Tip:** Alternativně lze regulátor rychlosti a/nebo servo řízení připojit přímo k přijímači pomocí Y-kabelu, aby se vyloučily rušení způsobená KLM.
+Připojte servokabely pro řízení a plyn k odpovídajícím výstupům přijímače. Regulátor jízdy a řídící servo se připojují k servo výstupům KLM. Kanály K1 a K2 lze volitelně použít.
+
+**Tip:** Připojení kanálu plynu a/nebo řízení může být vynecháno, pokud jsou brzdové světlo, zpětné světlo a/nebo blinkry napájeny analogově (viz kapitola 11.5 „Actros 3363 brzdové/zpětné světlo a blinkry z regulátoru jízdy“).
+
+**Tip:** Regulátor jízdy a/nebo řídící servo lze také připojit přímo k přijímači pomocí Y-kabelu, aby se vyloučily rušení způsobená KLM.
 
 ## Připojení osvětlení
 
@@ -24,23 +28,25 @@ Všechny rozšiřující nebo osvětlující desky lze připojit přímo nebo p�
 
 ## Naučení kanálů
 
-![](images/image\_043.png)
+![](images/image\_065.png)
 
 image6.png
 
-Naučení kanálů je nezbytné pro správný provoz EasyBus systémů. Po každé změně na vysílači (např. zdvihy, směry otáčení, střední polohy) je nutné kanály znovu naučit.
+Naučení kanálů je nejdůležitějším krokem pro správný provoz systémů KraftwerK EasyBus!
 
-Serva a motory ovládané systémem KraftwerK musí být nastaveny přes ControlPanel. Nepoužívejte menu vašeho vysílače!
+Po každé změně nastavení vašeho dálkového ovládání (výchylky, směry otáčení, střední polohy) je nutné kanály znovu naučit.
 
-1. Zapněte vysílač a model zvedněte tak, aby se poháněná kola nedotýkala země.
-2. Zapněte model. Po dvojitém zablikání zelené LED posuňte plyn a řízení na pět sekund do koncové polohy, dokud červená LED nezaplavá asi jednu sekundu.
-3. Vraťte kniply do střední polohy.
+Serva a motory ovládané systémy KraftwerK musí být upraveny přes ControlPanel – nikoli přes menu dálkového ovládání!
 
-LED signály při učení:
+1. Zapněte dálkové ovládání. Pokud je připojen pohonný motor, model zvedněte, aby se kola nedotýkala země.
+2. Zapněte model. Po dvojitém zablikání zelené LED posuňte kanál plynu a řízení každý po dobu pěti sekund do krajní polohy, dokud červená LED nezabliká asi na jednu sekundu.
+3. Páčku vraťte do střední polohy.
 
-- 1x bliknutí: knipl plynu – plný plyn, pak plná brzda
-- 2x bliknutí: knipl řízení – plně vlevo, pak plně vpravo
-- 3x bliknutí: přídavný kanál K1 – plně vlevo, pak plně vpravo
-- 4x bliknutí: přídavný kanál K2 – plně nahoru, pak plně dolů
+LED bliká podle kanálů:
 
-Po návratu všech kniplů do střední polohy svítí červená LED trvale, což signalizuje konec učení. Systém se automaticky restartuje a dvojité blikání zelené LED ukazuje připravenost k provozu.
+- 1x krátce: Páčka plynu – plný plyn, pak plná brzda
+- 2x krátce: Páčka řízení – plný levý, pak pravý doraz
+- 3x krátce: Přídavný kanál K1 – plný levý, pak pravý doraz
+- 4x krátce: Přídavný kanál K2 – plný horní, pak dolní doraz
+
+Když jsou všechny páčky ve střední poloze, červená LED svítí dlouze a signalizuje konec učícího procesu. Systém se restartuje a dvojitým zeleným blikáním ukáže připravenost k provozu.

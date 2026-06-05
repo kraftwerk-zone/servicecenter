@@ -1,4 +1,4 @@
-# Manuál RS1 Regulátor-Zvuková kombinace
+# Manuál RS1 Regulátor-Soundkombinace
 
 **Wolfgang Haring e.U.**  
 IČ firmy: FN 312421 v (Krajský soud Wr. Neustadt)  
