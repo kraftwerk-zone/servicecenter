@@ -75,8 +75,10 @@ plugins:
   - search
   - awesome-pages
   - i18n:
+      reconfigure_material: true
       docs_structure: folder
       fallback_to_default: false
+      reconfigure_search: true
       languages:
         - locale: de
           name: Deutsch
@@ -118,9 +120,12 @@ plugins:
           site_description: Teknisk dokumentation for produkter, moduler og systemer
   - git-revision-date-localized:
       enable_creation_date: true
+      enable_git_follow: false
 
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - scripts/header-back.js
 
 extra:
   social:
