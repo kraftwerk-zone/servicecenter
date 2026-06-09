@@ -1,7 +1,7 @@
 # Downloads & Changelogs – kraftwerk-zone.com
 
-## 05.06.2026 ControlPanel 2026.2
-**Download:** [ControlPanel 2026.2 Beta](https://xeasnvwjvovhvvnjptie.supabase.co/storage/v1/object/public/updates/controlpanel/ControlPanel_jre_202620.exe)
+## 09.06.2026 ControlPanel 2026.2
+**Download:** [ControlPanel 2026.2](https://xeasnvwjvovhvvnjptie.supabase.co/storage/v1/object/public/updates/controlpanel/ControlPanel_jre_202620.exe)
 **Größe:** 151 MB
 
 ### Änderungen
