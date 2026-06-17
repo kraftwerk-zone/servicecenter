@@ -2,7 +2,6 @@ site_name: KraftwerK Servicecenter
 site_url: https://kraftwerk.shop/servicecenter
 site_description: Technische Dokumentation für Produkte, Module und Systeme
 
-# Tab-Reihenfolge: mkdocs-static-i18n sortiert Top-Level alphabetisch; der Hook setzt die gewünschte Reihenfolge.
 hooks:
   - hooks/reorder_i18n_top_nav.py
 
@@ -10,21 +9,30 @@ docs_dir: docs
 
 theme:
   name: material
+  language: de
   palette:
-    scheme: default
-    primary: "#f29100"
-    accent: "#ff9a01"
+    - scheme: default
+      primary: "#f29100"
+      accent: "#ff9a01"
+  font:
+    text: Inter
+    code: Fira Code
   features:
-    - navigation.tabs          # Baut deine Hauptordner als Tabs oben auf
-    - navigation.footer         # Baut die Sidebar NUR für den aktuell aktiven Tab auf (Dein Silo-Effekt!)
-#    - navigation.sections      # Macht Untermenüs in der Sidebar aufklappbar
-#    - navigation.expand        # Klappt die Menüs in der Sidebar standardmäßig aus
-#    - navigation.prune         # Baut die Sidebar NUR für den aktuell aktiven Tab auf (Dein Silo-Effekt!)
-#    - toc.integrate            # Integriert das Inhaltsverzeichnis der Seite in die linke Navigation
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
     - content.code.copy
+    - content.code.annotate
     - content.action.edit
-    
-     
+    - content.tabs.link
+    - content.tooltips
+    - search.suggest
+    - search.highlight
+    - search.share
+
 markdown_extensions:
   - admonition
   - toc:
@@ -39,37 +47,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.snippets
   - pymdownx.tabbed
-
-
-#plugins:
-#  - search
-#  - awesome-pages
-#  - macros
-#  - minify:
-#      minify_html: true
-#  - i18n:
-#      reconfigure_material: true    # aktiviert Material-Theme Language Switcher
-#      docs_structure: folder        # oder: folder
-#      fallback_to_default: true     # fehlende Übersetzungen → Default-Sprache
-#      reconfigure_search: true      # getrennte Suchindizes pro Sprache
-#      default_language: de   # ← Pflicht in 0.58
-#      languages:
-#        de:
-#          name: Deutsch
-#          locale: de
-#          default: true
-#          build: true
-#          nav:
-#            - Handbücher:
-#                - K101D: 02-Handbücher/K101D Handbuch EasyBus Lichtanlagen/
-#            - FAQ:
-#                - FAQ: 01-Häufig gestellte Fragen/
- #           - ControlPanel:
-#                - ControlPanel: 03-ControlPanel/
-#        en:
-#          name: English
-#          locale: en
-#          build: true#
 
 plugins:
   - search
@@ -86,44 +63,39 @@ plugins:
           default: true
           theme:
             language: de
-          site_description: Technische Dokumentation für Produkte, Module und Systeme
         - locale: en
           name: English
           build: true
           theme:
             language: en
-          site_description: Technical documentation for products, modules and systems
         - locale: es
           name: Español
           build: true
           theme:
             language: es
-          site_description: Documentación técnica de productos, módulos y sistemas
         - locale: it
           name: Italiano
           build: true
           theme:
             language: it
-          site_description: Documentazione tecnica per prodotti, moduli e sistemi
-        # Tschechisch: ISO 639-1 = cs (Ordner docs/cs/); „cz“ ist kein gültiges Babel-Locale (git-revision-date).
         - locale: cs
           name: Čeština
           build: true
           theme:
             language: cs
-          site_description: Technická dokumentace produktů, modulů a systémů
         - locale: da
           name: Dansk
           build: true
           theme:
             language: da
-          site_description: Teknisk dokumentation for produkter, moduler og systemer
+
   - git-revision-date-localized:
       enable_creation_date: true
       enable_git_follow: false
 
 extra_css:
   - stylesheets/extra.css
+
 extra_javascript:
   - scripts/header-back.js
 
