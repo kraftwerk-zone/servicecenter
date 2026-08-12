@@ -1,0 +1,223 @@
+/* ---------------------------------------------------------
+   KRAFTWERK BRANDING – UNZERSTÖRBAR (richtige Selektor-Ebene)
+---------------------------------------------------------- */
+
+[data-md-color-primary] {
+  --md-primary-fg-color: #f29100 !important;
+  --md-primary-fg-color--light: #ffa733 !important;
+  --md-primary-fg-color--dark: #d97d00 !important;
+}
+
+[data-md-color-accent] {
+  --md-accent-fg-color: #ff9a01 !important;
+  --md-accent-fg-color--transparent: #ff9a0126 !important;
+}
+
+/* Links & Markierungen */
+:root {
+  --md-typeset-a-color: #c76a00 !important;
+  --md-typeset-mark-color: rgba(242, 145, 0, 0.28) !important;
+
+  --md-code-hl-color: #f29100 !important;
+  --md-code-hl-color--light: rgba(242, 145, 0, 0.14) !important;
+}
+
+/* ---------------------------------------------------------
+   LAYOUT – BREITERES GRID & CONTENT
+---------------------------------------------------------- */
+
+.md-grid {
+  max-width: 1500px !important;
+}
+
+.md-header__inner {
+  max-width: 1500px !important;
+}
+
+.md-content {
+  max-width: 1200px !important;
+  margin: 0 auto;
+}
+
+/* ---------------------------------------------------------
+   TYPOGRAFIE – NEUTRAL & AUSGEWOGEN
+---------------------------------------------------------- */
+
+/* Body-Text */
+.md-typeset,
+.md-typeset p,
+.md-typeset ul,
+.md-typeset ol,
+.md-typeset li {
+  font-size: 0.8rem !important;
+  line-height: 1.45 !important;
+}
+
+/* Überschriften – unverändert */
+.md-typeset h1 {
+  font-size: 1.9rem !important;
+  margin-top: 2rem;
+}
+
+.md-typeset h2 {
+  font-size: 1.45rem !important;
+  margin-top: 1.6rem;
+}
+
+.md-typeset h3 {
+  font-size: 1.22rem !important;
+  margin-top: 1.3rem;
+}
+
+.md-tabs__link {
+    backface-visibility: hidden;
+    display: flex;
+    font-size: 0.85rem;
+    margin-top: 0.8rem;
+    opacity: 0.7;
+    outline-color: var(--md-accent-fg-color);
+    outline-offset: 0.2rem;
+    transition: transform 0.4s cubic-bezier(0.1, 0.7, 0.1, 1), opacity 0.25s;
+}
+
+/* Desktop-Override (Material überschreibt sonst wieder) */
+@media screen and (min-width: 76.25em) {
+  .md-typeset,
+  .md-typeset p,
+  .md-typeset ul,
+  .md-typeset ol,
+  .md-typeset li {
+    font-size: 0.8rem !important;
+  }
+}
+
+/* ---------------------------------------------------------
+   TOC – KOMPAKT & LESBAR
+---------------------------------------------------------- */
+
+.md-nav--secondary .md-nav__link {
+  font-size: 0.75rem !important;
+  line-height: 1.3 !important;
+  padding: 0.25rem 0 !important
+}
+
+/* TOC – moderner Hover */
+.md-nav--secondary .md-nav__link:hover {
+  color: var(--md-primary-fg-color) !important;
+  opacity: 1 !important;
+}
+
+/* TOC – aktiver Eintrag */
+.md-nav--secondary .md-nav__link--active {
+  color: var(--md-primary-fg-color) !important;
+  font-weight: 600 !important;
+  opacity: 1 !important;
+}
+
+.md-nav--secondary .md-nav__title {
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+}
+
+/* TOC – Bullets entfernen */
+.md-nav--secondary .md-nav__item::before {
+  display: none !important;
+}
+
+.md-nav--secondary .md-nav__item {
+  margin: 0.1rem 0 !important;
+}
+
+/* TOC – linke Linie */
+.md-nav--secondary {
+  border-left: 1px solid rgba(0,0,0,0.08);
+  padding-left: 0.75rem;
+}
+
+/* TOC – bessere Einrückung */
+.md-nav--secondary .md-nav__item--nested > .md-nav {
+  margin-left: 0.75rem !important;
+}
+
+/* ---------------------------------------------------------
+   LANGUAGE INDICATOR
+---------------------------------------------------------- */
+
+.kg-language-indicator {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  margin: 0 0.75rem 0 0;
+  padding: 0 0.25rem;
+  white-space: nowrap;
+}
+
+/* ---------------------------------------------------------
+   HEADER FIXES
+---------------------------------------------------------- */
+
+.md-header .md-select__trigger,
+.md-header .md-select__value {
+  color: #ffffff !important;
+}
+
+.md-header .md-select__icon {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
+
+/* ---------------------------------------------------------
+   TOC – Breite um 10% erhöhen
+---------------------------------------------------------- */
+
+.md-sidebar--secondary {
+  width: 22% !important;   /* Standard ist ~20% → jetzt +10% */
+}
+
+.md-content {
+  max-width: calc(1200px - 2%) !important; 
+  margin: 0 auto;
+}
+
+/* ---------------------------------------------------------
+   BACK BUTTON
+---------------------------------------------------------- */
+
+.kg-shop-back-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 1rem !important;
+  border-radius: 999px;
+  background: var(--md-primary-fg-color);
+  color: #fff;
+  font-size: 0.95rem !important;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.kg-shop-back-button:hover {
+  background: #d97d00;
+  transform: translateY(-1px);
+}
+
+/* ---------------------------------------------------------
+   PREMIUM LOOK FÜR BILDER, TABELLEN, CODE
+---------------------------------------------------------- */
+
+.md-typeset img {
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  margin: 1rem 0;
+}
+
+.md-typeset table {
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.md-typeset pre > code {
+  padding: 1rem !important;
+  border-radius: 6px;
+  line-height: 1.5;
+}
